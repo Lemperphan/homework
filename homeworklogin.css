@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0; 
+    padding: 0;
+    background: url('https://img.vietcetera.com/wp-content/uploads/2020/01/1st-gen-tet-feature.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position-y:-60px ;
+    font-family: 'Teko', sans-serif;
+}
+#container{
+    min-height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+form{
+    background-color: #05c46b;
+    width: 30%;
+    height: 400px;
+    box-shadow: 10px 20px #ffd32a;
+}
+.form_group{
+    margin-left: 89px;
+    padding: 10px 20px;
+}
+.title{
+    color: #ffd32a;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.text-form{
+    border: none;
+    border-radius: 15px;
+}
+.change{
+    margin-left: 240px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+a{
+    color: #ffd32a;
+    text-decoration: none;
+}
+.submit{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    /* border: none */
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 3px solid #ffd32a;
+    color: #ffd32a  ;
+}
+.submit:hover{
+    background-color: #ffd32a;
+    color: white;
+    border: none;
+}
+
+
+@media screen and (max-width:480){
+    form{width: 50%;}
+}
