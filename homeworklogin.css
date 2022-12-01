@@ -25,7 +25,7 @@ form{
 }
 .form_group{
     margin-left: 89px;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 .title{
     color: #ffd32a;
@@ -33,6 +33,7 @@ form{
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
+
 }
 .text-form{
     border: none;
@@ -68,7 +69,24 @@ a{
     border: none;
 }
 
+@media screen and (max-width:599px) {
+    form{
+        width: 100%;
+    }
+}
 
-@media screen and (max-width:480){
-    form{width: 50%;}
+@media screen and (max-width:1200px) {
+    form{
+        width: 40%;
+    }
+    .form_group{
+        margin-left: 110px;
+        padding: 10px 10px;
+    }
+
+}
+@media screen and (max-width:480px){
+    form{
+        width: 100%;
+    }
 }
