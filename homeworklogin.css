@@ -5,10 +5,6 @@
 body{
     margin: 0; 
     padding: 0;
-    background: url('https://img.vietcetera.com/wp-content/uploads/2020/01/1st-gen-tet-feature.jpg');
-    background-repeat: no-repeat;
-    background-size: 1500px;
-    background-position-y:-60px ;
     font-family: 'Teko', sans-serif;
 }
 #container{
@@ -19,7 +15,7 @@ body{
 }
 form{
     background-color: #05c46b;
-    width: 30%;
+    width: 28%;
     height: 400px;
     box-shadow: 10px 20px #ffd32a;
 }
@@ -38,6 +34,7 @@ form{
 .text-form{
     border: none;
     border-radius: 15px;
+    padding: 10px;
 }
 .change{
     margin-left: 240px;
@@ -68,7 +65,6 @@ a{
     color: white;
     border: none;
 }
-
 @media screen and (max-width:599px) {
     form{
         width: 100%;
